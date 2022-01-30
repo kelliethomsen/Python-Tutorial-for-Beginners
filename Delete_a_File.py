@@ -8,7 +8,7 @@ path = 'test.txt'
 try:
  #   os.remove(path) #delete a file
  #   os.rmdir(path) #delete a file or empty folder]
- #  shutil.rmtree(path) #delete files and or folders
+ #   shutil.rmtree(path) #delete files and or folders
 except FileNotFoundError:
     print("That file was not found")
 except PermissionError:
@@ -16,3 +16,4 @@ except PermissionError:
 except OSError:
     print("That folder contains files")
 else:
+    print(path + "was deleted")

@@ -1,9 +1,19 @@
-# import Guessing Game
+# module = a filer containing python code. May contain functions, classes, etc.
+# used with modular programming, which is to separate a program into parts
 
-# print(Guessing Game.roll_dice(10))
+def hello():
+    print("Hello! Have a wonderful day!")
 
-# pip is a package manager
+def bye():
+    print("Goodbye!")
 
-import docx
+#in another created module write:
+#import the name of the modeule with hello/bye in it ex. messages
+#so...
+#import messages
 
-docx.
+#messages.hello()
+#messages.bye()
+
+
+#help("modules")
